@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the GitHub repository
-                git 'https://github.com/lojain-yadak/unixfinalproject.git'
+                git 'https://github.com/maisaarman/projectunix.git'
             }
         }
         stage('Build') {
